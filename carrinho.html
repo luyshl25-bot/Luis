@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho - AcessoFácil</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="atalhos-acessibilidade" aria-label="Atalhos de acessibilidade">
+        <a href="#menu-topo" class="skip-link" accesskey="1">Ir para o menu [1]</a>
+        <a href="#meu-carrinho" class="skip-link" accesskey="2">Ir para o conteúdo [2]</a>
+    </nav>
+
+    <header class="header">
+        <h1>AcessoFácil</h1>
+        <p>Resumo do seu carrinho de compras</p>
+    </header>
+
+    <main id="conteudo-principal" class="main-content">
+        <a id="meu-carrinho" name="meu-carrinho" class="oculto">Início do conteúdo principal</a>
+
+        <section class="secao-produtos">
+
+            <h2 class="secao-titulo">Meu Carrinho</h2>
+
+            <div id="lista-carrinho" class="produtos-grid">
+                <p>Seu carrinho está vazio.</p>
+            </div>
+
+            <section class="ajuda-container">
+
+                <h2 id="total-carrinho">Total: R$ 0,00</h2>
+
+                <label for="pagamento"><strong>Forma de pagamento:</strong></label>
+                <br><br>
+
+                <select id="pagamento" class="busca-input">
+                    <option>Pix</option>
+                    <option>Cartão de Crédito</option>
+                    <option>Cartão de Débito</option>
+                    <option>Dinheiro</option>
+                </select>
+
+                <br><br>
+
+                <button type="button" id="finalizar-whatsapp" class="botao-ajuda">
+                    💬 Finalizar pelo WhatsApp
+                </button>
+
+            </section>
+
+        </section>
+
+    </main>
+
+    <nav id="menu-principal" class="nav-principal" aria-label="Navegação principal">
+        <a id="menu-topo" name="menu-topo" class="oculto">Início do menu principal</a>
+        <a href="index.html" class="nav-link">Início</a>
+        <a href="produtos.html" class="nav-link">Produtos</a>
+        <a href="carrinho.html" class="nav-link carrinho" id="link-carrinho">Meu Carrinho (0)</a>
+    </nav>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <strong>AcessoFácil &copy; 2026</strong><br>
+            Projeto Integrador - Grupo 4
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <noscript>
+        <p style="text-align:center; padding:20px; background:#fff3cd; color:#333; font-size:18px;">
+            Para uma melhor experiência, ative o JavaScript no seu navegador.
+            Sem ele, o carrinho de compras e alguns recursos não funcionarão.
+        </p>
+    </noscript>
+
+</body>
+</html>

@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AcessoFácil - E-commerce Acessível</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="atalhos-acessibilidade" aria-label="Atalhos de acessibilidade">
+        <a href="#menu-topo" class="skip-link" accesskey="1">Ir para o menu no topo [1]</a>
+        <a href="#acessofacil" class="skip-link" accesskey="2">Ir para a introdução [2]</a>
+        <a href="#produtos-destaque" class="skip-link" accesskey="3">Ir para os produtos [3]</a>
+        <a href="#porque-escolher" class="skip-link" accesskey="4">Ir para o por quê[4]</a>
+    </nav>
+    
+    <header class="header">
+        <h1>AcessoFácil</h1>
+        <p>E-commerce acessível para mobilidade, segurança e conforto</p>
+    </header>
+
+    <main id="conteudo-principal" class="main-content">
+        <a id="acessofacil" name="acessofacil" class="oculto">Início do conteúdo principal</a>
+
+        <section class="hero" aria-labelledby="titulo-principal">
+            <div class="hero-texto">
+                <h2 id="titulo-principal">
+                    Comprar com facilidade, segurança e acessibilidade
+                </h2>
+
+                <p>
+                    O AcessoFácil foi criado para tornar a compra de produtos de apoio mais simples,
+                    clara e acessível para pessoas com deficiência, idosos e usuários com pouca familiaridade com tecnologia.
+                </p>
+
+                <div class="hero-botoes">
+                    <a href="produtos.html" class="botao-ajuda">
+                        Ver Produtos
+                    </a>
+
+                    <a href="carrinho.html" class="botao-secundario">
+                        Ir para o Carrinho
+                    </a>
+                </div>
+            </div>
+
+            <div class="hero-card" aria-label="Resumo dos recursos do site">
+                <h3>Recursos do site</h3>
+
+                <ul>
+                    <li>Interface simples</li>
+                    <li>Botões grandes</li>
+                    <li>Alto contraste</li>
+                    <li>Navegação por teclado</li>
+                    <li>Design responsivo</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="acessibilidade-info" aria-labelledby="titulo-acessibilidade">
+
+            <h2 id="titulo-acessibilidade">
+                Acessibilidade em primeiro lugar
+            </h2>
+
+            <ul class="atalhos-lista">
+                <li>Letras ampliadas</li>
+                <li>Alto contraste</li>
+                <li>Menu simplificado</li>
+                <li>Foco visível</li>
+                <li>Textos alternativos</li>
+            </ul>
+
+        </section>
+
+        <section id="produtos-destaque" class="secao-produtos" aria-labelledby="titulo-destaques">
+
+            <h2 id="titulo-destaques" class="secao-titulo">
+                Produtos em Destaque
+            </h2>
+
+            <div class="produtos-grid">
+
+                <article class="produto-card destaque">
+
+                    <span class="selo-destaque">
+                        MAIS VENDIDO
+                    </span>
+
+                    <div class="produto-imagem">
+                        <img 
+                            src="imagens/bengala.jpg" 
+                            alt="Bengala ajustável antiderrapante"
+                            class="foto-produto">
+                    </div>
+
+                    <h3 class="produto-nome">
+                        Bengala Ajustável
+                    </h3>
+
+                    <p class="produto-descricao">
+                        Produto leve, regulável e antiderrapante, indicado para auxiliar
+                        na mobilidade com segurança.
+                    </p>
+
+                    <div class="produto-preco">
+                        R$ 89,90
+                    </div>
+
+                    <a href="produtos.html" class="botao-comprar">
+                        Ver Produto
+                    </a>
+
+                </article>
+
+                <article class="produto-card">
+
+                    <div class="produto-imagem">
+                        <img 
+                            src="imagens/cadeira-rodas.webp" 
+                            alt="Cadeira de rodas dobrável reforçada"
+                            class="foto-produto">
+                    </div>
+
+                    <h3 class="produto-nome">
+                        Cadeira de Rodas
+                    </h3>
+
+                    <p class="produto-descricao">
+                        Cadeira dobrável com estrutura reforçada,
+                        ideal para transporte, conforto e uso diário.
+                    </p>
+
+                    <div class="produto-preco">
+                        R$ 799,90
+                    </div>
+
+                    <a href="produtos.html" class="botao-comprar">
+                        Ver Produto
+                    </a>
+
+                </article>
+
+                <article class="produto-card destaque">
+
+                    <span class="selo-destaque">
+                        RECOMENDADO
+                    </span>
+
+                    <div class="produto-imagem">
+                        <img 
+                            src="imagens/barra.png" 
+                            alt="Barra de apoio inox para banheiro"
+                            class="foto-produto">
+                    </div>
+
+                    <h3 class="produto-nome">
+                        Barra de Apoio
+                    </h3>
+
+                    <p class="produto-descricao">
+                        Barra de segurança para banheiro,
+                        pensada para prevenir quedas e aumentar a autonomia.
+                    </p>
+
+                    <div class="produto-preco">
+                        R$ 129,90
+                    </div>
+
+                    <a href="produtos.html" class="botao-comprar">
+                        Ver Produto
+                    </a>
+
+                </article>
+
+            </div>
+        </section>
+
+        <section class="secao-produtos" aria-labelledby="porque-escolher">
+
+            <h2 id="porque-escolher" class="secao-titulo">
+                Por que escolher o AcessoFácil?
+            </h2>
+
+            <div class="produtos-grid">
+
+                <div class="produto-card">
+                    <h3 class="produto-nome">Navegação simples</h3>
+                    <p class="produto-descricao">
+                        O site possui menus claros, botões grandes
+                        e poucas etapas para facilitar o uso.
+                    </p>
+                </div>
+
+                <div class="produto-card">
+                    <h3 class="produto-nome">Inclusão digital</h3>
+                    <p class="produto-descricao">
+                        O projeto foi pensado para atender diferentes perfis
+                        de usuários com mais autonomia.
+                    </p>
+                </div>
+
+                <div class="produto-card">
+                    <h3 class="produto-nome">Atendimento facilitado</h3>
+                    <p class="produto-descricao">
+                        A finalização pelo WhatsApp aproxima o cliente
+                        do atendimento humano.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="ajuda-container" aria-labelledby="titulo-mvv">
+
+            <h2 id="titulo-mvv">
+                Missão, Visão e Valores
+            </h2>
+
+            <p>
+                <strong>Missão:</strong>
+                facilitar o acesso a produtos de apoio por meio de uma experiência digital simples e acessível.
+            </p>
+
+            <p>
+                <strong>Visão:</strong>
+                ser uma referência acadêmica em e-commerce acessível e inclusão digital.
+            </p>
+
+            <p>
+                <strong>Valores:</strong>
+                acessibilidade, respeito, autonomia, segurança, inclusão e usabilidade.
+            </p>
+
+            <a href="produtos.html" class="botao-ajuda">
+                Conhecer Produtos
+            </a>
+
+        </section>
+
+    </main>
+
+    <nav id="menu-principal" class="nav-principal" aria-label="Navegação principal">
+        <a id="menu-topo" name="menu-topo" class="oculto">Início do menu principal</a>
+        <a href="index.html" class="nav-link">Início</a>
+        <a href="produtos.html" class="nav-link">Produtos</a>
+        <a href="carrinho.html" class="nav-link carrinho">Meu Carrinho</a>
+    </nav>
+
+    <a href="https://wa.me/5511999999999"
+        class="whatsapp-fixo"
+        aria-label="Falar com atendimento pelo WhatsApp (abre nova janela)"
+        rel="noopener noreferrer">
+        <span aria-hidden="true">💬</span>
+        <span>WhatsApp (nova janela)</span>
+    </a>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <strong>AcessoFácil &copy; 2026</strong><br>
+            Projeto Integrador - Grupo 4<br>
+            Site acadêmico desenvolvido com foco em acessibilidade,
+            responsividade e inclusão digital.
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <noscript>
+        <p style="text-align:center; padding:20px; background:#fff3cd; color:#333; font-size:18px;">
+            Para uma melhor experiência, ative o JavaScript no seu navegador.
+            Sem ele, o carrinho de compras e alguns recursos não funcionarão.
+        </p>
+    </noscript>
+
+</body>
+</html>
